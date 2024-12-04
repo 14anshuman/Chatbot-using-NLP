@@ -23,33 +23,6 @@ This project implements a chatbot using Natural Language Processing (NLP) techni
 
 ---
 
-## Installation
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd <repository-directory>
-```
-
-### 2. Create a Virtual Environment (Optional but Recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
-
-### 3. Install Required Packages
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Download NLTK Data
-```python
-import nltk
-nltk.download('punkt')
-```
-
----
-
 ## Usage
 To run the chatbot application, execute the following command:
 ```bash
@@ -67,16 +40,6 @@ The chatbot's behavior is defined by the `intents.json` file, which contains var
 
 ## Conversation History
 The chatbot saves the conversation history in a CSV file (`chat_log.csv`). You can view past interactions by selecting the "Conversation History" option in the sidebar.
-
----
-
-## Contributing
-Contributions to this project are welcome! If you have suggestions for improvements or features, feel free to open an issue or submit a pull request.
-
----
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
